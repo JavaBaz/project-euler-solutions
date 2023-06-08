@@ -16,16 +16,10 @@ public class RunApp {
             System.out.println();
 
             switch (choice) {
-                case 1:
-                    System.out.println("Showing problems to user ...");
-
-                case 2:
-                    System.out.println("Showing about menu to user ...");
-
-                case 0:
-                    System.out.println("Exiting the program. Goodbye!");
-                default:
-                    System.out.println("Invalid choice. Please try again.");
+                case 1 -> System.out.println("Showing problems to user ...");
+                case 2 -> System.out.println("Showing about menu to user ...");
+                case 0 -> System.out.println("Exiting the program. Goodbye!");
+                default -> System.out.println("Invalid choice. Please try again.");
             }
 
             System.out.println();
