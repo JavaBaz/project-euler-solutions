@@ -8,4 +8,8 @@ public class Printer {
         Stream.of(items).forEach(System.out::println);
     }
 
+    public static void printMessage(String title) {
+        System.out.print("->> " + title);
+    }
+
 }
