@@ -9,7 +9,7 @@ public class RunApp {
 
         int choice;
         do {
-            Printer.printMenu(Menu.STARTMENU);
+            Printer.printMenu(Menu.START_MENU);
             Printer.printMessage("Enter your choice : ");
 
             choice = scanner.nextInt();
