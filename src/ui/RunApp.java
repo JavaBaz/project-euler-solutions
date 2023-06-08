@@ -19,6 +19,9 @@ public class RunApp {
                 case 1:
                     System.out.println("Showing problems to user ...");
 
+                case 2:
+                    System.out.println("Showing about menu to user ...");
+
                 case 0:
                     System.out.println("Exiting the program. Goodbye!");
                 default:
