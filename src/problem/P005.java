@@ -1,8 +1,8 @@
 package problem;
 
-public class Problem005 {
+public class P005 {
     public static void main(String[] args) {
-        System.out.println(new Problem005().run());
+        System.out.println(new P005().run());
     }
 
 

@@ -1,9 +1,9 @@
 package problem;
 
-public class Problem004 {
+public class P004 {
 
     public static void main(String[] args) {
-        System.out.println(new Problem004().run());
+        System.out.println(new P004().run());
     }
 
     public static boolean isPalindrome(String string) {

@@ -1,8 +1,8 @@
 package problem;
 
-public class Problem001 {
+public class P001 {
     public static void main(String[] args) {
-        Problem001 file = new Problem001();
+        P001 file = new P001();
         file.run();
     }
 
