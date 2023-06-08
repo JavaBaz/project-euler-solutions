@@ -17,7 +17,7 @@ public class RunApp {
 
             switch (choice) {
                 case 1:
-                    ShowProblems();
+                    System.out.println("Showing problems to user ...");
 
                 case 0:
                     System.out.println("Exiting the program. Goodbye!");
